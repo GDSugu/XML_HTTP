@@ -1,0 +1,181 @@
+   
+  
+let resume = 
+{
+   "basics": [
+      {
+    "name": "S.Sugumar",
+    "email": "sugumargeo@gmail.com",
+    "contact": "+91 9751015306, 8903705306",
+    "degree": "B.E",
+    "location": {
+      "address": "1/350, Kammalar Street,Koliyanur(PO),Villupuram",
+      "postalCode": "605103",
+      "city": "Villupuram",
+      "State": "TamilNadu",
+      "country": "India"
+    
+      },
+      
+      
+       "profiles": 
+       [
+      {
+        "network": "LinkedIn",
+        "username": "Sugumar Srinivasan",
+        "url": "www.linkedin.com/in/sugumar-srinivasan-4aa2b015a"
+      }
+      ],
+       "workExperience1": [
+    {
+      "company": "Crafty Solutions Pvt Ltd",
+      "position": "Junior Lidar Engineer",
+      "startDate": "10th May 2019",
+      "endDate": "20th March 2020",
+      "summary": "As a Junior Liadr Engineer my work is complete the Poweline, Ground Project file with good Quality",
+      
+    }
+  ],
+  "workExperience2": [
+      {
+        "company": "Red Networks Telecomm Pvt Ltd",
+        "position": "Senior Lidar Engineer",
+        "startDate": "10th November 2019",
+        "endDate": "25th june 2020",
+        "summary": "Aa a Senior Lidar Engineer my work to check the production file",
+       
+      }
+    ],
+    "workExperience3": [
+      {
+        "company": "EDR continuous Information Pvt Ltd",
+        "position": "GIS Engineer",
+        "startDate": "19-07-2021",
+        "endDate": "",
+        "summary": "As a Quality checker my work to find the errors in the RFDB(Road Feature Datatbase) file and to update to the production team",
+       
+      }
+    ],
+    "volunteer": [
+    {
+      "organization": "Karunai Disabled Rehabilitation Trust",
+      "position": "Personal Assistant",
+      "startDate": "16th march 2015",
+      "endDate": "",
+      
+    }
+  ],
+  "education": [
+    {
+      "institution": "University VOC College of Engineering",
+      "area": "Thoothukudi",
+      "course": "B.E Geoinformatics",
+      "startDate": "20th June 2015",
+      "endDate": "14th April 2019",
+      "cgpa": "7.32",
+     
+    }
+  ],
+  "education2": [
+    {
+      "institution": "Sacred Heart Convent Higher Secondary School",
+      "area": "Villupuram",
+      "Class": "12th Standard",
+      "startDate": "7th May 2014",
+      "endDate": "20th March 2015",
+      "Marks in percentage": "87%",
+     
+    }
+  ],
+  "education3": [
+    {
+      "institution": "The Claribel Matric School",
+      "area": "Villupuram",
+      "class": "10th Standard",
+      "startDate": "20th May 2012",
+      "endDate": "15th April 2013",
+      "Marks in percentage": "97.2%",
+     
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "Beginner",
+      "keywords": [
+        "javascript",
+      ]
+    },
+    {
+      "name": "GIS Softwares",
+      "level": "Intermediate",
+      "keywords": [
+        "QGIS","ArcGIS"
+      ]
+    },
+    {
+      "name": "Lidar Softwares",
+      "level": "Intermediate",
+      "keywords": [
+        "Microstation"
+      ]
+    },
+    {
+      "name": "Surveying Equipment Handling",
+      "level": "Intermediate",
+      "keywords": [
+        "Total Station", "DGPS", "RTK-GPS","Drone"
+      ]
+    },
+  
+  {
+    "name": "Management Skills",
+    "level": "Good",
+    "keywords": [
+      "Self-confidence", "Quick Learning Ability", "Honest & Integrity","Hard Working"
+    ]
+  }
+],
+  "languages": [
+    {
+      "language": "Tamil",
+      "Writing fluency": "Good",
+      "Speaking": "Good"
+    },
+    {
+      "language": "English",
+      "Writing fluency": "Good",
+      "Speaking": "Good"
+    },
+    {
+      "language": "Hindi",
+      "Writing fluency": "Good",
+      "Speaking": "Beginner"
+    },
+    {
+      "language": "Kannada",
+      "Writing fluency": "Beginner",
+      "Speaking": "Good"
+    }
+  ],
+  "interests": [
+    {
+      "name": "sports",
+      "keywords": ["Cricket", "Silambam", "Kabaddi"  ]
+        
+    },
+    {
+      "name": "Yoga",
+      "keywords": ["Pranayamam", "Astanga Yogam"]
+        
+    },
+    {
+      "name": "Reading books",
+      "keywords": ["Thirumanthiram", "Sivapuranam" ]
+        
+    }
+   ]
+      }
+]};
+       console.log(resume.basics[0].workExperience3[0])
+  
